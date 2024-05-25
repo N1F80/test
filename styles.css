@@ -10,6 +10,17 @@ header {
     background-color: #333;
     color: white;
     text-align: center;
+    padding: 0; /* Suppression du padding pour ajuster la bannière */
+}
+
+.banner-image {
+    width: 100%; /* La bannière occupe toute la largeur de l'écran */
+    height: auto; /* La hauteur s'ajuste automatiquement en fonction de la largeur */
+    display: block;
+}
+
+nav {
+    background-color: #333; /* Couleur de fond du nav pour correspondre à la bannière */
     padding: 1rem 0;
 }
 
@@ -50,12 +61,4 @@ footer {
     width: 200px; /* Ajustez la taille selon vos besoins */
     display: block;
     margin: 10px 0;
-}
-
-.banner-image {
-    width: 100%; /* Vous pouvez spécifier une largeur spécifique, par exemple, 1000px */
-    height: 300px; /* Ajustez la hauteur selon vos besoins */
-    object-fit: cover; /* Maintient le ratio de l'image et couvre toute la zone */
-    display: block;
-    margin: 0 auto;
 }
