@@ -51,3 +51,10 @@ footer {
     display: block;
     margin: 10px 0;
 }
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
