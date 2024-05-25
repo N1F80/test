@@ -15,8 +15,10 @@ header {
 
 .banner-image {
     width: 100%; /* La bannière occupe toute la largeur de l'écran */
-    height: auto; /* La hauteur s'ajuste automatiquement en fonction de la largeur */
+    max-height: 200px; /* Limite la hauteur de la bannière */
+    object-fit: cover; /* Maintient le ratio de l'image tout en couvrant toute la zone */
     display: block;
+    margin: 0 auto;
 }
 
 nav {
