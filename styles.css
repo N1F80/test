@@ -2,26 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8; /* Couleur de fond claire */
-    color: #333;
 }
 
 header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1rem 0;
-}
-
-.banner-image {
-    max-width: 100%; /* Pour que l'image de la bannière ne dépasse pas la largeur de son conteneur */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-nav {
-    background-color: #333;
     padding: 1rem 0;
 }
 
@@ -48,27 +34,15 @@ section {
     margin-bottom: 2rem;
 }
 
+article {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1rem 0;
-}
-
-.weapon-image {
-    width: 200px;
-    display: block;
-    margin: 10px auto;
-}
-
-h1, h2, h3 {
-    color: #333; /* Couleur de titre foncée */
-}
-
-a {
-    color: #333; /* Couleur de lien foncée */
-}
-
-a:hover {
-    color: #666; /* Couleur de lien foncée au survol */
 }
