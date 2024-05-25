@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f8f8f8; /* Couleur de fond claire */
     color: #333;
 }
 
@@ -10,19 +10,18 @@ header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 0; /* Suppression du padding pour ajuster la bannière */
+    padding: 1rem 0;
 }
 
 .banner-image {
-    width: 100%; /* La bannière occupe toute la largeur de l'écran */
-    max-height: 200px; /* Limite la hauteur de la bannière */
-    object-fit: cover; /* Maintient le ratio de l'image tout en couvrant toute la zone */
+    max-width: 100%; /* Pour que l'image de la bannière ne dépasse pas la largeur de son conteneur */
+    height: auto;
     display: block;
     margin: 0 auto;
 }
 
 nav {
-    background-color: #333; /* Couleur de fond du nav pour correspondre à la bannière */
+    background-color: #333;
     padding: 1rem 0;
 }
 
@@ -54,13 +53,22 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
 .weapon-image {
-    width: 200px; /* Ajustez la taille selon vos besoins */
+    width: 200px;
     display: block;
-    margin: 10px 0;
+    margin: 10px auto;
+}
+
+h1, h2, h3 {
+    color: #333; /* Couleur de titre foncée */
+}
+
+a {
+    color: #333; /* Couleur de lien foncée */
+}
+
+a:hover {
+    color: #666; /* Couleur de lien foncée au survol */
 }
