@@ -53,7 +53,7 @@ footer {
 }
 
 .banner-image {
-    width: 100%; /* Ou une autre largeur fixe, par exemple, 1000px */
+    width: 100%; /* Vous pouvez spécifier une largeur spécifique, par exemple, 1000px */
     height: 300px; /* Ajustez la hauteur selon vos besoins */
     object-fit: cover; /* Maintient le ratio de l'image et couvre toute la zone */
     display: block;
