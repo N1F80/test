@@ -17,20 +17,4 @@ function restoreBackground(element) {
 
 // Exemple d'utilisation d'événements pour appeler les fonctions ci-dessus
 document.addEventListener("DOMContentLoaded", function() {
-    // Ajoute un gestionnaire d'événement au clic sur les liens du menu de navigation
-    var navLinks = document.querySelectorAll("nav a");
-    navLinks.forEach(function(link) {
-        link.addEventListener("click", showMessage);
-    });
-
-    // Ajoute des gestionnaires d'événements pour le survol des articles
-    var articles = document.querySelectorAll("article");
-    articles.forEach(function(article) {
-        article.addEventListener("mouseover", function() {
-            changeBackground(article);
-        });
-        article.addEventListener("mouseout", function() {
-            restoreBackground(article);
-        });
-    });
-});
+    // Aj
